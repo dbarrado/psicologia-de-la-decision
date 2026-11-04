@@ -7,12 +7,12 @@ Es una skill: una carpeta con instrucciones que tu agente (Claude o Codex) lee c
 ## Cómo instalarla
 
 1. Descargá **[el ZIP](https://github.com/dbarrado/psicologia-de-la-decision/archive/refs/heads/main.zip)** y descomprimilo. Adentro hay una carpeta `psicologia-de-la-decision-main`, y dentro de ella otra carpeta llamada exactamente `psicologia-de-la-decision`: esa es la skill. Si Windows al extraer agrega una carpeta más, usá igual la que se llama `psicologia-de-la-decision` (no la que termina en `-main`).
-2. Copiá la carpeta `psicologia-de-la-decision` entera dentro de la carpeta de tu proyecto, en `.claude/skills` si usás Claude, o en `.agents/skills` si usás Codex. Tiene que quedar así: `tu-proyecto/.claude/skills/psicologia-de-la-decision`. Si `.claude`, `.agents` o `skills` no existen, creálas con esos nombres exactos (la que empieza con punto puede estar oculta: en el Explorador de Windows, «Vista» → «Mostrar» → «Elementos ocultos»; en Mac, Cmd + Mayús + punto).
+2. Copiá la carpeta `psicologia-de-la-decision` entera dentro de la carpeta de tu proyecto, en `.claude/skills` si usás Claude, o en `.agents/skills` si usás Codex. Tiene que quedar así: `tu-proyecto/.claude/skills/psicologia-de-la-decision`. Si `.claude`, `.agents` o `skills` no existen, crealas con esos nombres exactos (la que empieza con punto puede estar oculta: en el Explorador de Windows, «Ver» → «Mostrar» → «Elementos ocultos»; en Mac, Cmd + Mayús + punto, y si no te deja crear una carpeta que empieza con punto, usá la forma con el agente).
 3. Cerrá y abrí una sesión nueva en esa carpeta.
 
 También podés pedirle al agente que la instale por vos:
 
-> Mi objetivo es usar la skill psicologia-de-la-decision en este proyecto. Instalala como skill de este proyecto desde https://github.com/dbarrado/psicologia-de-la-decision y decime dónde quedó.
+> Mi objetivo es usar la skill psicologia-de-la-decision en este proyecto. Instalala como skill de este proyecto desde https://github.com/dbarrado/psicologia-de-la-decision y decime dónde quedó. El repositorio trae la skill en una subcarpeta llamada psicologia-de-la-decision: instalá esa subcarpeta, no el repositorio entero.
 
 ## Cómo usarla
 
